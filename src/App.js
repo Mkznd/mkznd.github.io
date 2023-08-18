@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import useScript from "./useScript";
 
 function App() {
+  useScript("https://dmaqfsvvftg8w.cloudfront.net/dtc.all.min.js")
+
   return (
     <div className="App">
       <header className="App-header">
